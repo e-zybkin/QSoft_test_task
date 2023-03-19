@@ -1,0 +1,10 @@
+.partners__card-picture {
+  max-height: 64px;
+}
+
+@media screen and (max-width: 1279px) {
+  .partners__card-picture {
+    max-width: 196px;
+  }
+}
+

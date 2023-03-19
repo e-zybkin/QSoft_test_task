@@ -1,0 +1,11 @@
+.header__link_miniprof {
+  display: none;
+}
+
+@media screen and (max-width: 767px) {
+  .header__link_miniprof {
+    display: block;
+    grid-area: profile;
+    margin-left: 87%;
+  }
+}

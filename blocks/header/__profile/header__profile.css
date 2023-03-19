@@ -1,0 +1,13 @@
+.header__profile {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  padding-left: 19px;
+  border-left: 1px solid #EBEBF1;
+}
+
+@media screen and (max-width: 767px) {
+  .header__profile {
+    display: none;
+  }
+}

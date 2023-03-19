@@ -1,0 +1,18 @@
+.header__box {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 767px) {
+  .header__box {
+    display: grid;
+    grid-template-rows: 63px 41px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas:
+      "logo profile"
+      "search search"
+    ;
+  }
+}

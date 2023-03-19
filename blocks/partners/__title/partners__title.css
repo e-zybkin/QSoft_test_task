@@ -1,0 +1,13 @@
+.partners__title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 160%;
+  margin: 0 0 30px 0;
+}
+
+@media screen and (max-width: 1023px) {
+  .partners__title {
+    font-size: 28px;
+  }
+}
